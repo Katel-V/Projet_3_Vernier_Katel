@@ -285,8 +285,9 @@ footer {
     gap: 30px;
     backgroud-color: var(--main-bg-color);
 }
+footer h3 {padding-left: 15px;}
 footer div {width: 50%;}
-footer ul {padding-left: 0px;}
+footer ul {padding-left: 15px;}
 footer li {
     list-style-type: none;
     padding-top: 15px;
