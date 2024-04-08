@@ -190,6 +190,7 @@ h2 {
     flex-wrap: wrap;
     gap: 25px;
     margin-top: 30px;
+    justify-content: center;
 }
 .hebergements-cards .card {
     width: 28%;
