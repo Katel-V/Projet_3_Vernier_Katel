@@ -87,12 +87,11 @@ h2 {
     width: 50px;
     height: 49px;
     align-items: center;
-    
     background-color: var(--main-bg-color);
     border-radius: 15px 0 0 15px;
 }
 .local-icon i {color: var(--black);}
-.searchbar input{
+.searchbar input {
     height: 43px;
     border: 2px solid var(--main-bg-color);
 }
@@ -102,7 +101,6 @@ h2 {
     text-align: center;
     color: var(--black);
     font-family: 'Raleway', sans-serif;
-
 }
 .searchbutton {
     width: 15%;
@@ -117,7 +115,14 @@ h2 {
     font-size: 18px;
     font-weight: bold;
 }
-.button-search {display: none;}
+.button-search {
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+.button-search i {
+    color: var(--white);
+    font-weight: bold;
+}
 h2 {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
