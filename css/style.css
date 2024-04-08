@@ -92,13 +92,9 @@ h2 {
     border-radius: 15px 0 0 15px;
 }
 .local-icon i {color: var(--black);}
-.searchform input{
-    /*width: 345px;*/
-    height: auto;
-    text-align: center;
-    font-weight: bold;
+.searchbar input{
+    height: 43px;
     border: 2px solid var(--main-bg-color);
-   
 }
 ::placeholder {
     font-weight: bold;
