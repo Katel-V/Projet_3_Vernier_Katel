@@ -123,14 +123,8 @@ h2 {
     font-size: 18px;
     font-weight: bold;
 }
-.button-search {
-    background-color: var(--main-color);
-    border: 1px solid var(--main-color);
-}
-.button-search i {
-    color: var(--white);
-    font-weight: bold;
-}
+.button-search {display:none;}
+
 h2 {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -378,6 +372,14 @@ footer li {
     }
     .searchbar {justify-content: center;}
     .searchbar input { width: 100%;}
+    .button-search {
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+    }
+    .button-search i {
+    color: var(--white);
+    font-weight: bold;
+    }    
     .filterbar {
         flex-direction: row;
         flex-wrap: wrap;
