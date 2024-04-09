@@ -197,7 +197,7 @@ h2 {
 }
 .hebergements-cards .card {
     width: 28%;
-    height: 250px;
+    height: 230px;
 }
 .hebergements-cards img {
     width: 100%;
@@ -254,7 +254,7 @@ h2 {
 /******Activités***/
 
 .activites {
-    padding: 30px;
+    padding: 10px;
     font-size: 14px;
 }
 .activites-content {
@@ -264,7 +264,8 @@ h2 {
     gap: 30px;
 }
 .activites-cards {
-    width: 30%;
+    width: 50%;
+    height: 350px;
     border-radius: 20px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     background-color: var(--white);
@@ -276,7 +277,10 @@ h2 {
     border-top-right-radius: 20px;
     object-fit: cover;
 }
-.activites-cards-elements {padding-left: 20px;}
+.activites-cards-elements {
+    padding-left: 10px;
+    font-size: 16px;
+}
 
 /*******Footer*****/
 
